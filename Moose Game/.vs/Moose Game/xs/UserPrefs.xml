@@ -1,9 +1,11 @@
 ﻿<Properties StartupConfiguration="{DD1D558B-6ECF-CD39-FB91-1E9C1CC57B3C}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/destroyOutOfBounds.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DetectCollisions.cs">
     <Files>
-      <File FileName="Assets/Scripts/playerController.cs" Line="10" Column="40" />
-      <File FileName="Assets/Scripts/moveForward.cs" Line="18" Column="44" />
-      <File FileName="Assets/Scripts/destroyOutOfBounds.cs" Line="7" Column="13" />
+      <File FileName="Assets/Scripts/playerController.cs" Line="15" Column="9" />
+      <File FileName="Assets/Scripts/moveForward.cs" Line="19" Column="6" />
+      <File FileName="Assets/Scripts/destroyOutOfBounds.cs" Line="8" Column="34" />
+      <File FileName="Assets/Scripts/spawnManager.cs" Line="23" Column="8" />
+      <File FileName="Assets/Scripts/DetectCollisions.cs" Line="18" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,7 +13,7 @@
           <Node name="Moose Game" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="destroyOutOfBounds.cs" selected="True" />
+                <Node name="DetectCollisions.cs" selected="True" />
               </Node>
             </Node>
           </Node>

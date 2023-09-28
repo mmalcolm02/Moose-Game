@@ -6,7 +6,7 @@ public class playerController : MonoBehaviour
 {
     public float horizontalInput;
     public float speed = 10.0f;
-    public float xRange = 10; //boundary of movement
+    public float xRange = 20; //boundary of movement
     public GameObject projectilePrefab;
 
     // Start is called before the first frame update
