@@ -1,37 +1,27 @@
 ﻿<Properties StartupConfiguration="{DD1D558B-6ECF-CD39-FB91-1E9C1CC57B3C}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DetectCollisions.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/playerController.cs">
     <Files>
       <File FileName="Assets/Scripts/playerController.cs" Line="15" Column="9" />
-      <File FileName="Assets/Scripts/moveForward.cs" Line="19" Column="6" />
-      <File FileName="Assets/Scripts/destroyOutOfBounds.cs" Line="8" Column="34" />
-      <File FileName="Assets/Scripts/spawnManager.cs" Line="23" Column="8" />
-      <File FileName="Assets/Scripts/DetectCollisions.cs" Line="18" Column="1" />
+      <File FileName="Assets/Scripts/moveForward.cs" />
+      <File FileName="Assets/Scripts/destroyOutOfBounds.cs" />
+      <File FileName="Assets/Scripts/spawnManager.cs" />
+      <File FileName="Assets/Scripts/DetectCollisions.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Moose Game" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="DetectCollisions.cs" selected="True" />
-              </Node>
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Unity" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7015aecf-57c4-4ef1-9bbd-26f1a6898838" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a96b91d6-a4de-4afb-baa6-2dbfcec822c2" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

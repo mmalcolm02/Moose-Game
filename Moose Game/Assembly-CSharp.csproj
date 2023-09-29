@@ -56,11 +56,11 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/destroyOutOfBounds.cs" />
     <Compile Include="Assets/Scripts/playerController.cs" />
     <Compile Include="Assets/Scripts/moveForward.cs" />
-    <Compile Include="Assets/Scripts/destroyOutOfBounds.cs" />
-    <Compile Include="Assets/Scripts/spawnManager.cs" />
     <Compile Include="Assets/Scripts/DetectCollisions.cs" />
+    <Compile Include="Assets/Scripts/spawnManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Course Library/_Source_Files/_LICENSE.txt" />
@@ -684,6 +684,9 @@
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Hub/Editor/2021.3.30f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridgeDev.001">
+      <HintPath>Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
@@ -738,6 +741,9 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Play.Publisher.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Play.Publisher.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
     </Reference>
@@ -752,12 +758,6 @@
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridgeDev.001">
-      <HintPath>Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Play.Publisher.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.Play.Publisher.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
