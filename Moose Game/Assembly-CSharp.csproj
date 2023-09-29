@@ -61,6 +61,7 @@
     <Compile Include="Assets/Scripts/moveForward.cs" />
     <Compile Include="Assets/Scripts/DetectCollisions.cs" />
     <Compile Include="Assets/Scripts/spawnManager.cs" />
+    <Compile Include="Assets/Scripts/GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Course Library/_Source_Files/_LICENSE.txt" />

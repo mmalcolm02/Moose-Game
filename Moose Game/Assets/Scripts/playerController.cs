@@ -10,6 +10,7 @@ public class playerController : MonoBehaviour
     public float xRange = 20; //boundary of movement
     public float zRangeHigh = 20; //boundary of vertical movement
     public float zRangeLow = -10;
+    public Transform projectileSpawnPoint;
     public GameObject projectilePrefab;
 
     // Start is called before the first frame update
@@ -24,7 +25,7 @@ public class playerController : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space))
         {
             //Launch a projectile from player
-            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+            Instantiate(projectilePrefab, projectileSpawnPoint.position, projectilePrefab.transform.rotation);
         }
         //horizontal movement input
         horizontalInput = Input.GetAxis("Horizontal");

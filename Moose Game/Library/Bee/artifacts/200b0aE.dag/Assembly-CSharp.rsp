@@ -346,6 +346,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/destroyOutOfBounds.cs"
 "Assets/Scripts/DetectCollisions.cs"
+"Assets/Scripts/GameManager.cs"
 "Assets/Scripts/moveForward.cs"
 "Assets/Scripts/playerController.cs"
 "Assets/Scripts/spawnManager.cs"
